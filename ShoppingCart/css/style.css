@@ -1,0 +1,19 @@
+.name {
+   font-family: 'Hoefler Text', Georgia, 'Times New Roman', serif;
+   font-weight: bold;
+   font-size: 1.35em;
+   color: #60A67D;
+}
+
+.description {
+   font-family: "Helvetica Neue", "Lucida Grande", Helvetica, Arial, Verdana, sans-serif;
+   font-size: 14px;
+   color: #666;
+}
+
+.price {
+   font-family: "Helvetica Neue", "Lucida Grande", Helvetica, Arial, Verdana, sans-serif;
+   font-size: 12px;
+   color: #2E2E2E;
+}
+
