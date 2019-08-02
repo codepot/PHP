@@ -1,0 +1,32 @@
+
+.imageIcon {
+	
+	height: 64px;
+	width: 64px;
+	padding: 25px;
+
+
+}
+
+
+
+
+.imageIcon a {
+	text-decoration: none;
+	display: block;
+	height: 250px;
+	width: 150px;
+        
+}
+
+.linkmenu{
+    padding-left: 50px;
+    padding-top: 50px;
+}
+
+.menulabel{
+    vertical-align: middle;
+    padding-left: 5px;
+    height: 64px;
+    padding-bottom: 15px;
+}

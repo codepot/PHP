@@ -1,0 +1,242 @@
+html, body {
+    height: 100%;
+}
+
+html {
+    display: table;
+    margin: auto;
+}
+
+body {
+    display: table-cell;
+    vertical-align: middle;
+}
+
+#page-wrap {
+    width: 900px;
+    height: 100%;
+    margin: 0 auto;
+}
+.container {
+    width: 100%;
+    position: relative;
+    z-index: 1;
+    background: #FFFFFF;
+    max-width: 900px;
+    height: 100%;
+    margin: 0 auto 100px;
+    padding-top: 30px;
+    text-align: center;
+    box-shadow: 0 0 20px 0 rgba(0, 0, 0, 0.2), 0 5px 5px 0 rgba(0, 0, 0, 0.24);
+}
+
+nav ul li {
+    display: inline-block;
+    padding-right: 10px;
+    padding-left: 15px;
+    font-size: 0.8em;
+    text-transform: uppercase;
+    font-family:tahoma, verdana, arial, sans-serif;
+     text-decoration: none;
+}
+
+.title
+{
+
+    text-shadow:1px 1px 1px rgba(173,255,10,1);
+    color:#000000;
+    letter-spacing:2pt;
+    word-spacing:1pt;
+    font-size:24px;
+    text-align:left;
+    font-family:tahoma, verdana, arial, sans-serif;
+    line-height:1;
+    padding: 5px 0px 0px 5px;
+}
+
+body {
+    font-family: sans-serif;  
+    margin: 0;
+}
+
+a {    
+    color: #000000;    
+    text-decoration: none;
+}
+
+links{
+    color: #7ab55c;
+    text-decoration: none;
+}
+
+.clearfix{
+    
+    text-shadow:1px 1px 0px rgba(173,255,10,1);
+    color:#000000;
+    letter-spacing:2pt;
+    word-spacing:1pt;
+    font-size:16px;
+    text-align:right;
+    vertical-align: central;
+    font-family:Arial, verdana, arial, sans-serif;
+    float: right;
+    width: 100%;
+    text-decoration: none;
+    height: 30px;
+    
+}
+
+header {
+    max-width: 800px;   
+}
+
+nav {
+    line-height: 0px;
+    background-color: #EEE;
+    text-align: right;
+    vertical-align: top;
+    
+}
+
+
+.submit{
+    font-family: "Tahoma", sans-serif;
+    font-weight: bolder;
+    float: right;
+    display: inline-block;   
+    
+    outline: 0;
+    background: #9db77e;
+    width: 120px;
+    height: 90px;
+    border: 0;    
+    padding-top: 5px;
+    box-sizing: border-box;
+    font-size: 14px;
+    margin-right: 15px;
+
+}
+
+label {
+    display: inline-block;
+    width: 35px;
+    text-align: right;
+    font-family:tahoma, verdana, arial, sans-serif;
+    font-size: 14px;
+}​
+
+
+
+
+aside {
+    float: left;
+    width: 30%;
+}
+
+section {
+    float: right;
+    width: 100%;
+    min-height: 500px;
+}
+
+.messageHeaderd{
+    float: right;
+}
+
+.footer {
+    font-family: "Tahoma", sans-serif;
+    font-weight: bolder;
+    font-size: 12px;
+    height: 30px;
+    margin: auto;
+    width: 800px;
+    text-align:center;
+    padding:10px;
+    color: #238014;
+    position:fixed;
+    bottom: 10px
+}
+
+.msgText{
+    text-align: left;
+    text-decoration: none;
+}
+
+td, tr{
+    height: 14px;
+    position:relative;
+    font-family:Arial, Verdana, sans-serif;
+    font-size:16px;
+}
+
+.subject_link {
+    color: #000000;    
+    text-decoration: underline;
+}
+
+.subject_link_new {
+    color: #257cb6;    
+    text-decoration: underline;
+}
+
+.delete{
+    color: #905; 
+    font-family: Arial, Helvetica, sans-serif;    
+    font-weight: bold;
+    text-decoration: #905;
+    font-size: 8;
+}
+
+.style1 {font-family: Arial, Helvetica, sans-serif}
+.style3 {font-family: Arial, Helvetica, sans-serif; font-weight: bold; }
+.style5 {font-family: Arial, Helvetica, sans-serif; font-size: 12px; }
+
+.container .message {
+    color: #905;
+    font-family: Verdana, Geneva, sans-serif;
+    font-size: 10px;
+    
+    font-weight: bold;
+    text-align: left; 
+    margin-top: 15px;
+    width: 100%; 
+    margin: 10px;
+}
+
+a:hover {
+    color: #3399ff;
+}
+
+button {
+    font-family: Verdana, Geneva, sans-serif;
+    float: right;
+    text-transform: uppercase;
+    display:inline-block;
+    margin-top: 15px;
+    margin-right: 15px;
+    outline: 0;
+    background: #4CAF50;
+    width: 100px;
+    border: 0;
+    padding: 10px;
+    color: #FFFFFF;
+    font-size: 12px;
+    -webkit-transition: all 0.3 ease;
+    transition: all 0.3 ease;
+    cursor: pointer;
+}
+button:hover,button:focus {
+    background: #43A047;
+}
+
+a[href$='from=inbox'] {
+    background: transparent url('remove.png') center left no-repeat;
+    padding-left: 18px;
+}
+
+a[href$='from=outbox'] {
+    background: transparent url('remove.png') center left no-repeat;
+    padding-left: 18px;
+}
+
+

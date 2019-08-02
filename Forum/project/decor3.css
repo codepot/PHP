@@ -1,0 +1,129 @@
+
+.upload_form {
+    position: relative;
+    z-index: 1;
+    background: #FFFFFF;
+    max-width: 650px;
+    min-width: 450px;
+    min-height: 300px;
+    margin: 0 auto 100px;
+    padding: 10px 45px 65px 45px;
+    
+    text-align: center;
+    box-shadow: 0 0 20px 0 rgba(0, 0, 0, 0.2), 0 5px 5px 0 rgba(0, 0, 0, 0.24);
+
+}
+
+.upload_form input {
+    font-family: "Roboto", sans-serif;
+    outline: 0;
+    background: #f2f2f2;
+    width: 100%;
+    border: 0;
+    margin: 0 0 15px;
+    padding: 15px;
+    box-sizing: border-box;
+    font-size: 14px;
+}
+
+.upload_form button {
+    font-family: "Roboto", sans-serif;
+    text-transform: uppercase;
+    outline: 0;
+    background: #4CAF50;
+    width: 100%;
+    border: 0;
+    margin: 0 0 15px 15px;   
+    margin-bottom: 120px;
+    color: #FFFFFF;
+    font-size: 14px;
+    -webkit-transition: all 0.3 ease;
+    transition: all 0.3 ease;
+    cursor: pointer;
+}
+.upload_form button:hover,.upload_form button:active,.upload_form button:focus {
+    background: #43A047;
+}
+
+.upload_form .message {
+    margin: 15px 0 0;
+    color: #b3b3b3;
+    font-size: 12px;
+}
+
+.upload_footer {
+
+    font-family: "Tahoma", sans-serif;
+    font-weight: bolder;
+    font-size: 12px;
+    height: 30px;
+    margin: auto;
+    width: 100%;
+    text-align:center;
+    padding:10px;
+    color: #238014;
+
+    bottom: 10px;
+}
+
+.error{
+    display: none;
+    margin-left: 10px;
+}		
+
+.error_show{
+    color: red;
+    margin-left: 10px;
+}
+
+input.invalid, textarea.invalid{
+    border: 2px solid red;
+}
+
+input.valid, textarea.valid{
+    border: 2px solid green;
+}
+
+
+a {
+    text-decoration: none;
+    padding-left: 15px;
+    padding-top: 15px;
+    padding-bottom: 15px;
+    float: right;
+    font-size: 12px;
+    font-weight: bold;
+    color: #090;
+    opacity: 0.6;
+    position: relative;
+    -webkit-transition: opacity 0.2s ease-in-out 0s;
+    -moz-transition: opacity 0.2s ease-in-out 0s;
+    transition: opacity 0.2s ease-in-out 0s;
+}
+
+a:hover {
+    opacity: 1;
+}
+
+a:before {
+    content: "";
+    position: absolute;
+    bottom: -2px;
+    width: 100%;
+    height: 2px;
+
+    background-color: #aca;
+    -webkit-transform: scaleX(0);
+    -moz-transform: scaleX(0);
+    transform: scaleX(0);
+    -webkit-transition: all 0.2s ease-in-out 0s;
+    -moz-transition: all 0.2s ease-in-out 0s;
+    transition: all 0.2s ease-in-out 0s;
+}
+
+a:hover:before {
+    -webkit-transform: scaleX(0.4);
+    -moz-transform: scaleX(0.4);
+    transform: scaleX(0.4);
+}
+
